@@ -9,4 +9,9 @@ public class Geometry3D {
         return surfaceCuboid;
     }
 
+    public static float volumeSquarePyramid(float baseArea, float height) {
+        float volume = (float) ((1/3) * (Math.pow(baseArea, 2)) * (height));
+        return volume;
+    }
+
 }
