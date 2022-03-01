@@ -10,7 +10,7 @@ public class Geometry3D {
     }
 
     public static float volumeSquarePyramid(float baseArea, float height) {
-        float volume = (float) ((1/3) * (Math.pow(baseArea, 2)) * (height));
+        float volume = (float) ((Math.pow(baseArea, 2)) * (height/3));
         return volume;
     }
 
