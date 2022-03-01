@@ -31,5 +31,6 @@ class Geometry3DTest {
 
     @Test
     void surfaceTetrahedron() {
+        assertEquals(1611.24, Geometry3D.surfaceTetrahedron(30.5f), 0.1);
     }
 }
