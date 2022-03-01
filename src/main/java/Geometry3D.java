@@ -19,4 +19,8 @@ public class Geometry3D {
         return area;
     }
 
+    public static float volumeTetrahedron(float length) {
+        float volume = (float) ((Math.pow(length, 3)) / (6 * Math.sqrt(2)));
+        return volume;
+    }
 }
