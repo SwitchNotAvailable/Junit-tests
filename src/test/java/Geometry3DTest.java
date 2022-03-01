@@ -26,6 +26,7 @@ class Geometry3DTest {
 
     @Test
     void volumeTetrahedron() {
+        assertEquals(558.81, Geometry3D.volumeTetrahedron(16.8f), 0.1);
     }
 
     @Test
