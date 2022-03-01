@@ -21,6 +21,7 @@ class Geometry3DTest {
 
     @Test
     void surfaceSquarePyramid() {
+        assertEquals(744.84, Geometry3D.surfaceSquarePyramid(13.4f, 20), 0.1);
     }
 
     @Test
