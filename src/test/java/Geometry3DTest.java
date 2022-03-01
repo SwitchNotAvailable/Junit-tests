@@ -16,6 +16,7 @@ class Geometry3DTest {
 
     @Test
     void volumeSquarePyramid() {
+        assertEquals(155.52, Geometry3D.volumeSquarePyramid(7.2f, 9), 0.1);
     }
 
     @Test
