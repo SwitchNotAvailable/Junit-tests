@@ -23,4 +23,9 @@ public class Geometry3D {
         float volume = (float) ((Math.pow(length, 3)) / (6 * Math.sqrt(2)));
         return volume;
     }
+
+    public static float surfaceTetrahedron(float length) {
+        float surfaceArea = (float) ((Math.sqrt(3)) * (Math.pow(length, 3)));
+        return surfaceArea;
+    }
 }
