@@ -14,6 +14,9 @@ public class Geometry3D {
         return volume;
     }
 
-
+    public static float surfaceSquarePyramid(float baseArea, float height) {
+        float area = (float) ((Math.pow(baseArea, 2)) + 2 * baseArea * (Math.sqrt(Math.pow(baseArea, 2)/4 + (Math.pow(height, 2)))));
+        return area;
+    }
 
 }
