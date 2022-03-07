@@ -6,6 +6,6 @@ class TetrahedronTest {
 
     @Test
     void volume() { //Test for Volume of a Tetrahedron
-        assertEquals(558.81, Geometry3D.volumeTetrahedron(16.8f), 0.1);
+        assertEquals(558.81, Tetrahedron.volume(16.8f), 0.1);
     }
 }
