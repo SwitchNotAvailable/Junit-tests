@@ -18,4 +18,5 @@ public abstract class SquareBasedPyramid extends Shape {
     public float volume(float baseArea, float height) {
         return (float) ((Math.pow(baseArea, 2)) * (height/3));
     }
+
 }
