@@ -4,11 +4,11 @@ public abstract class Cuboid extends Shape {
         super(length, width, height);
     }
 
-    public float volume(float length, float width, float height) { //Method for calculating Volume of a cuboid
+    public static float volume(float length, float width, float height) { //Method for calculating Volume of a cuboid
         return length * width * height; //return volume of a cuboid
     }
 
-    public float surfaceArea(float length, float width, float height) {
+    public static float surfaceArea(float length, float width, float height) {
         return (2*length*width) + (2*length*height) + (2*height*width); // return surface area of a cuboid
     }
 
