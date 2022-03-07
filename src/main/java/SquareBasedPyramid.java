@@ -15,11 +15,11 @@ public abstract class SquareBasedPyramid extends Shape {
         this.baseArea = baseArea;
     }
 
-    public float volume(float baseArea, float height) {
+    public static float volume(float baseArea, float height) {
         return (float) ((Math.pow(baseArea, 2)) * (height/3));
     }
 
-    public float surfaceArea(float baseArea, float height) {
+    public static float surfaceArea(float baseArea, float height) {
         return (float) ((Math.pow(baseArea, 2)) + 2 * baseArea * (Math.sqrt(Math.pow(baseArea, 2)/4 + (Math.pow(height, 2)))));
     }
 }
