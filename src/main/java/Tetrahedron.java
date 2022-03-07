@@ -3,7 +3,8 @@ public abstract class Tetrahedron extends Shape {
         super(length, width, height);
     }
 
-    public float volume(float length) {
+    public static float volume(float length) {
         return (float) ((Math.pow(length, 3)) / (6 * Math.sqrt(2)));
     }
+
 }
